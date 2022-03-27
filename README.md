@@ -24,9 +24,3 @@ DEMO: https://detectincognito.com/
 Please note that although this script works on almost all modern browsers, detecting private modes in browsers is very much an arms race. As such, I cannot guarantee that this script will continue to work into the future. However, I will continue to actively maintain this script to support as many browsers as is possible.
 
 If you are aware of any modern browsers this script does not work with, please let me know by creating an issue.
-
-# Notes
- * This script does not detect Container Tabs on Firefox as they work differently compared to private mode.
- * An error will be thrown if the browser cannot be identified.
- * The script only works remotely (i.e. on a web server). Running the script locally may produce a false result, or not run at all.
- * [Issue #3](https://github.com/Joe12387/detectIncognito/issues/3 "Issue #3"): The script may cause a false result in certain automated testing scenarios.
