@@ -58,10 +58,10 @@
       var a = document.getElementById("answer");
       detectIncognito().then(function(result) {
         if (result.isPrivate) {
-          a.innerHTML = "<b>Yes</b>. You are using " + result.browserName + " in " + getModeName(result.browserName) + ".";
+          a.innerHTML = "<b>Yes</b>. You are using " + result.browserName + " in " + getModeName(result.browserName) + ". Naughty! Be good!";
           window.close()
         } else {
-          a.innerHTML = "<b>No</b>. You are using " + result.browserName + " in a regular browser window.";
+          a.innerHTML = "<b>No</b>. You are using " + result.browserName + " in a regular browser window. If you are seeing this, it was my mistake, I know you were behaving. Stay good okay?";
         }
       }).catch(function(error) {
         a.innerHTML = "There was an error. Check console for further information.";
