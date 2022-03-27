@@ -31,4 +31,4 @@ If you are aware of any modern browsers this script does not work with, please l
  * The script only works remotely (i.e. on a web server). Running the script locally may produce a false result, or not run at all.
  * [Issue #3](https://github.com/Joe12387/detectIncognito/issues/3 "Issue #3"): The script may cause a false result in certain automated testing scenarios.
 
-P.S: Credit goes to Joe12387 for creating this script
+P.S: Credit goes to Joe12387 for creating this script. 
