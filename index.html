@@ -59,7 +59,7 @@
       detectIncognito().then(function(result) {
         if (result.isPrivate) {
           a.innerHTML = "<b>Yes</b>. You are using " + result.browserName + " in " + getModeName(result.browserName) + ". Naughty! Be good!";
-          window.close()
+          browser.close()
         } else {
           a.innerHTML = "<b>No</b>. You are using " + result.browserName + " in a regular browser window. If you are seeing this, it was my mistake, I know you were behaving. Stay good okay?";
         }
